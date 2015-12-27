@@ -6,6 +6,8 @@ High-Dimensional Neural Network Potentials
         
 This repositorie has been created to control file's versions of HDNNP project.
 
+High-Dimensional Neural Network Potentials is my UOC's final degree (TFG).
+
 Requisites
 ==========
 
