@@ -4,8 +4,6 @@ High-Dimensional Neural Network Potentials
 <p> Developer: </p>
         Antonio Díaz Pozuelo (adpozuelo@uoc.edu)
         
-This repositorie has been created to control file's versions of HDNNP project.
-
 High-Dimensional Neural Network Potentials is my UOC's final degree (TFG).
 
 Requisites
@@ -20,7 +18,7 @@ Requisites
 
 - Hardware:
 
-  * NVIDIA CUDA arquitecture capable VGA.
+  * NVIDIA CUDA arquitecture VGA.
 
 Install
 =======
