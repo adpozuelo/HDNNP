@@ -11,10 +11,16 @@ High-Dimensional Neural Network Potentials is my UOC's final degree (TFG).
 Requisites
 ==========
 
-- NVIDIA CUDA Compiler (nvcc)
-- Intel Fortran Compiler (ifort) or GNU Fortran Compiler (gfortran).
-- IMSL Fortran compiled library
-- GNUplot
+- Software:
+
+  * NVIDIA CUDA Compiler (nvcc)
+  * Intel Fortran Compiler (ifort) or GNU Fortran Compiler (gfortran).
+  * IMSL Fortran compiled library
+  * GNUplot
+
+- Hardware:
+
+  * NVIDIA CUDA arquitecture capable VGA.
 
 Install
 =======
