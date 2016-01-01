@@ -4,7 +4,7 @@ High-Dimensional Neural Network Potentials
 <p> Developer: </p>
         Antonio Díaz Pozuelo (adpozuelo@uoc.edu)
         
-High-Dimensional Neural Network Potentials is my UOC's final degree (TFG).
+HDNNP is my UOC's (Universitat Oberta de Catalunya) final project degree (TFG).
 
 Requisites
 ==========
