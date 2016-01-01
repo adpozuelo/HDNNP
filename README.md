@@ -18,24 +18,23 @@ Requisites
 
 - Hardware:
 
-  * NVIDIA CUDA arquitecture VGA.
+  * NVIDIA VGA CUDA capable arquitecture.
 
 Install
 =======
 
-<p> To Download HDNNP application: </p>
+<p> Download HDNNP application: </p>
 
         git clone https://github.com/adpozuelo/HDNNP.git
         cd HDNNP
         
-<p> To compile (Makefile is ready for Intel Fortran Compiler)</b>: </p>
+<p> Compile (Makefile is ready for Intel Fortran Compiler)</b>: </p>
 
         make
 
-<p> To use HDNNP application (execution example in HDNNP.sh): </p>
+<p> Execute HDNNP application (execution examples in HDNNP.sh): </p>
 
         ./HDNNP.sh
         
-<p> Demo data is included in "data" directorie </p>
-<p> Only 50 boxes are included in demo data </p>
+<p> Demo data is included in "data" directorie (50 boxes are included in each temperature data file) </p>
 
