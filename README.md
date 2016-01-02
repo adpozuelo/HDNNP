@@ -6,14 +6,14 @@ High-Dimensional Neural Network Potentials
         
 <p> HDNNP is my UOC's (Universitat Oberta de Catalunya) final project degree (TFG). </p>
 
-<p> HDNNP is a feed forward neural network (FFNN) that calculates the macroscopic properties
-(energy, pressure, conductivity, etc.) of the atom's system. It does so as follows: </p>
+HDNNP is a feed forward neural network (FFNN) that calculates the macroscopic properties
+(energy, pressure, conductivity, etc.) of the atom's system. It does so as follows:
 
-		 - It learns from the properties of certain sets of systems of atoms (positions in a time sequence and energy for a given temperature and density).
+- It learns from the properties of certain sets of systems of atoms (positions in a time sequence and energy for a given temperature and density).
 
-		 - It predicts the macroscopic properties of another system of different atoms, under temperature and / or density, to those used for learning.
+- It predicts the macroscopic properties of another system of different atoms, under temperature and / or density, to those used for learning.
 
-<p> There are examples of atom's systems in "data" directorie (50 boxes are included for each temperature data file) </p>
+There are examples of atom's systems in "data" directorie (50 boxes are included for each temperature data file).
 
 Requisites
 ==========
