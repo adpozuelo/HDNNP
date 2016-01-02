@@ -13,7 +13,7 @@ HDNNP is a feed forward neural network (FFNN) that calculates the macroscopic pr
 
 - It predicts the macroscopic properties of another system of different atoms, under temperature and / or density, to those used for learning.
 
-There are examples of atom's systems in "data" directorie (50 boxes are included for each temperature data file).
+There are examples of atom's systems in "data" directory (50 boxes are included for each temperature data file).
 
 Design & Arquitecture
 ==========
@@ -29,14 +29,14 @@ Requisites
 
 - Software:
 
-  * NVIDIA CUDA Compiler (nvcc)
-  * Intel Fortran Compiler (ifort) or GNU Fortran Compiler (gfortran).
-  * IMSL Fortran compiled library
-  * GNUplot
+  * NVIDIA CUDA Compiler (nvcc).
+  * Intel Fortran Compiler (ifort) or GNU Fortran Compiler (gfortran)..
+  * IMSL Fortran compiled library.
+  * GNUplot.
 
 - Hardware:
 
-  * NVIDIA's VGA CUDA capable arquitecture.
+  * NVIDIA's VGA CUDA capable arquitecture which must support compute capability 2.0 or higher.
 
 Install
 =======
