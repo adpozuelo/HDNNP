@@ -22,7 +22,7 @@ HDNNP is designed to use the massive parallel paradigm for intensive computation
 
 Implementation
 ==========
-HDNNP is implemented with NVIDIA CUDA SDK 6.5 and it uses the IMSL library for parameters optimization. Therefore it implements a fortran wrapper to language intercommunication.
+HDNNP is implemented with NVIDIA CUDA SDK 6.5 and it uses the IMSL library for parameters optimization. Therefore it implements a fortran wrapper for languages intercommunication.
 
 Requisites
 ==========
@@ -30,7 +30,7 @@ Requisites
 - Software:
 
   * NVIDIA CUDA Compiler (nvcc).
-  * Intel Fortran Compiler (ifort) or GNU Fortran Compiler (gfortran)..
+  * Intel Fortran Compiler (ifort) or GNU Fortran Compiler (gfortran).
   * IMSL Fortran compiled library.
   * GNUplot.
 
