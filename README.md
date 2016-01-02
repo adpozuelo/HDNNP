@@ -15,6 +15,15 @@ HDNNP is a feed forward neural network (FFNN) that calculates the macroscopic pr
 
 There are examples of atom's systems in "data" directorie (50 boxes are included for each temperature data file).
 
+Design & Arquitecture
+==========
+
+HDNNP is designed to use the massive parallel paradigm for intensive computation like symmetry functions calculus or neural network epochs. Thus, HDNNP needs a NVIDIA's VGA with CUDA arquitecture which must support compute capability 2.0 or higher.
+
+Implementation
+==========
+HDNNP is implemented with NVIDIA CUDA SDK 6.5 and it uses the IMSL library for parameters optimization. Therefore it implements a fortran wrapper to language intercommunication.
+
 Requisites
 ==========
 
@@ -27,7 +36,7 @@ Requisites
 
 - Hardware:
 
-  * NVIDIA VGA CUDA capable arquitecture.
+  * NVIDIA's VGA CUDA capable arquitecture.
 
 Install
 =======
