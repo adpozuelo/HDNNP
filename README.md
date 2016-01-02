@@ -32,7 +32,7 @@ Requisites
   * NVIDIA CUDA Compiler (nvcc).
   * Intel Fortran Compiler (ifort) or GNU Fortran Compiler (gfortran).
   * IMSL Fortran compiled library.
-  * GNUplot.
+  * GNUplot and cairo library.
 
 - Hardware:
 
