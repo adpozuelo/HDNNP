@@ -15,7 +15,7 @@ LIBPATH = -L/usr/local/cuda/lib64
 .cu.o:  
 	$(CC) $(CFLAGS) $<
 
-nonlfit_gpu : $(OBJ_ALL)
+hdnnp : $(OBJ_ALL)
 	$(FC) $(LIBPATH) -o HDNNP  $(OBJ_ALL) -limsl -lcudart -lstdc++ -nofor-main
 
 clean:
