@@ -3,7 +3,7 @@ set output 'LEARNING_PROCESS.png'
 plot for [col=1:2] 'data/LEARNING_PROCESS.dat' using 0:col with lines title columnheader
 
 set output 'FINAL_PREDICTION.png'
-plot 'data/ENERGY_PREDICT.dat' with lines,\
-'data/PREDICT_FINAL_OUTPUT.dat' with lines
+plot 'data/PREDICT_FINAL_OUTPUT.dat' with lines,\
+'data/ENERGY_PREDICT.dat' with lines
 
 exit
