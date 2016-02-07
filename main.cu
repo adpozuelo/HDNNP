@@ -2,6 +2,7 @@
   UOC_TFG - Antonio Díaz Pozuelo - adpozuelo@uoc.edu
   Application main file
   High-Dimensional Neural Network Potentials (HDNNP)
+	Testing Git Branch
 */
 
 #include <stdio.h>
@@ -94,12 +95,12 @@ int main(int argc, char *argv[]) {
 			g3_sf_max[i]=-1;
 			g3_sf_valid[i] = 1;
 		}
-	
+
 		/*
 		  Generate symmetry functions atom's representation values for learn and predict boxes
 		*/
 		load_boxes_and_generate_symmetry_functions(OUTPUT_FILENAME_LEARN, OUTPUT_FILENAME_PREDICT, number_of_atoms_per_box, total_learn_timesteps, total_predict_timesteps, OUTPUT_FILENAME_G2_LEARN, OUTPUT_FILENAME_G3_LEARN, OUTPUT_FILENAME_MISC_DATA, OUTPUT_FILENAME_ENERGY_LEARN, OUTPUT_FILENAME_G2_PREDICT, OUTPUT_FILENAME_G3_PREDICT, OUTPUT_FILENAME_ENERGY_PREDICT, g2_sf_valid, g2_sf_min, g2_sf_max, g3_sf_valid, g3_sf_min, g3_sf_max);
-	
+
 		/*
 		  Preconditioning (feature selection and normalized) learn and predict atom's representation values
 		*/
