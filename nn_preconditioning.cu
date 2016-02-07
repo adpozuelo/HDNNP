@@ -14,7 +14,7 @@
 #include "conf.h"
 #include "misc.h"
 
-void nn_preconditioning(char *input_filename_g2_learn, char *input_filename_g3_learn, char *output_filename_g_normalized_learn, int *g2_sf_valid, float *g2_sf_min, float *g2_sf_max, int *g3_sf_valid, float *g3_sf_min, float *g3_sf_max,int number_of_atoms_per_box, int total_learn_timesteps, int total_predict_timesteps, char *input_filename_g2_predict, char *input_filename_g3_predict, char *output_filename_g_normalized_predict) {  
+void nn_preconditioning(char *input_filename_g2_learn, char *input_filename_g3_learn, char *output_filename_g_normalized_learn, int *g2_sf_valid, float *g2_sf_min, float *g2_sf_max, int *g3_sf_valid, float *g3_sf_min, float *g3_sf_max,int number_of_atoms_per_box, int total_learn_timesteps, int total_predict_timesteps, char *input_filename_g2_predict, char *input_filename_g3_predict, char *output_filename_g_normalized_predict) {
 
 	printf("\nPreconditioning symmetry functions data\n");
 
@@ -45,7 +45,7 @@ void nn_preconditioning(char *input_filename_g2_learn, char *input_filename_g3_l
 	if (output_file_learn == NULL) {
 		print_opening_file_error_and_exit();
 	}
-  
+
 	// Open output symmetry functions normalized learn file in write mode
 	FILE *output_file_normalized_learn = fopen(output_filename_g_normalized_learn, "w");
 	if (output_file_normalized_learn == NULL) {
@@ -148,12 +148,12 @@ void nn_preconditioning(char *input_filename_g2_learn, char *input_filename_g3_l
 					}
 				}
 				// Write to G normalized learn output file valid and normalized G2 and G3 values
-				for(int j = 0; j < g_total_valid_counter / 2; j++){
+				for(int j = 0; j < g_total_valid_counter; j++){
 					if (j < g2_sf_valid_counter) {
 						fprintf(output_file_learn, "%.10e ", g2_sf_final[j]); // only for graph
 						fprintf(output_file_normalized_learn, "%.10e ", g2_sf_final_normalized[j]);
 					}
-					if (j < g3_sf_valid_counter) { 
+					if (j < g3_sf_valid_counter) {
 						fprintf(output_file_learn, "%.10e ", g3_sf_final[j]); // only for graph
 						fprintf(output_file_normalized_learn, "%.10e ", g3_sf_final_normalized[j]);
 					}
@@ -270,7 +270,7 @@ void nn_preconditioning(char *input_filename_g2_learn, char *input_filename_g3_l
 					if (j < g2_sf_valid_counter) {
 						fprintf(output_file_normalized_predict, "%.10e ", g2_sf_final_normalized[j]);
 					}
-					if (j < g3_sf_valid_counter) { 
+					if (j < g3_sf_valid_counter) {
 						fprintf(output_file_normalized_predict, "%.10e ", g3_sf_final_normalized[j]);
 					}
 				}

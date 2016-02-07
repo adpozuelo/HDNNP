@@ -12,15 +12,15 @@
 */
 #define G2_SIZE 36 // G2 SF size
 #define G3_SIZE 48 // G3 SF size
-#define G_TOTAL_SIZE G2_SIZE + G3_SIZE // G total SF size (G2 + G3) 
+#define G_TOTAL_SIZE G2_SIZE + G3_SIZE // G total SF size (G2 + G3)
 #define G2G3SYMFILE "data/G_GRAPH.dat" // Not normalized G SF values filename (to graph only)
 
 /*
   Neural network (NN)
 */
-#define MAX_G_SIZE_TO_OPT 30 // NN maximum input layer size
+#define MAX_G_SIZE_TO_OPT 0 // NN maximum input layer size
 #define NUMBER_OF_BOXES_TO_OPT 50 // Number of boxes to process in learning and predict mode
-#define HIDDEN_LAYER_SIZE 4 // NN hidden layer number of neurons
+#define HIDDEN_LAYER_SIZE 5 // NN hidden layer number of neurons
 #define MAX_ATOMS_NUMBER 64 // NN maximum number of atoms per box
 
 /*
